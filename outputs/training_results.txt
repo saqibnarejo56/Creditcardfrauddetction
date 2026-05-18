@@ -1,0 +1,51 @@
+Cyberbullying Detection Using Hyperbolic Tangent Kernel
+
+STRICT RULE:
+Only Hyperbolic Tangent Kernel SVM is used.
+No other kernel is used.
+No other classifier is used.
+
+CLASSIFIER:
+SVC(kernel="sigmoid", gamma="scale", coef0=0.0, C=2.0, class_weight="balanced")
+
+KERNEL FORMULA:
+K(x, y) = tanh(gamma * x.T * y + coef0)
+
+DATASET:
+C:\Users\Narejo\Desktop\cyberbullying project\hyperbolic_tangent_kernel_cyberbullying\data\cyberbullying_sample.csv
+
+TOTAL_RECORDS:
+100
+
+TRAINING_RECORDS:
+80
+
+TESTING_RECORDS:
+20
+
+ACCURACY:
+0.9000
+
+PRECISION:
+0.9000
+
+RECALL:
+0.9000
+
+F1_SCORE:
+0.9000
+
+CLASSIFICATION_REPORT:
+              precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90        10
+           1       0.90      0.90      0.90        10
+
+    accuracy                           0.90        20
+   macro avg       0.90      0.90      0.90        20
+weighted avg       0.90      0.90      0.90        20
+
+
+CONFUSION_MATRIX:
+[[9 1]
+ [1 9]]
